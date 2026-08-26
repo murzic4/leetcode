@@ -1,0 +1,66 @@
+# LeetCode Solutions (C++)
+
+Solutions to the first LeetCode problems in C++17, each with example-based tests.
+
+## Repository structure
+
+```
+leetcode/
+├── 0001_two_sum/
+│   ├── problem.md   # problem statement, signature, examples
+│   ├── solution.h   # class Solution with the method to implement
+│   ├── test.cpp     # tests from the examples + minimal runner
+│   └── Makefile     # builds and runs the tests
+├── 0002_add_two_numbers/
+├── ...
+└── 0010_regular_expression_matching/
+```
+
+Each problem folder is self-contained.
+
+- `problem.md` — problem statement, method signature and examples (as on LeetCode).
+- `solution.h` — `class Solution` with the method stub marked `// TODO: implement`.
+- `test.cpp` — test cases from the examples; prints `[PASS]`/`[FAIL]` and a final summary.
+- `Makefile` — builds and runs the tests.
+
+## Conventions
+
+- LeetCode-style `class Solution` signatures (copy-paste ready for the site).
+- `#pragma once` in headers.
+- C++17, compiled with `g++`.
+- No external test framework — each `test.cpp` has a tiny self-contained runner.
+
+## How to run
+
+```bash
+cd 0001_two_sum
+make test     # build + run tests + print result
+make clean    # remove the test binary
+```
+
+Tests fail (non-zero exit) until the function is implemented — that is expected.
+
+## Problems
+
+| # | Folder | Problem | Method signature | Status |
+|---|--------|---------|------------------|--------|
+| 1 | `0001_two_sum` | Two Sum | `vector<int> twoSum(vector<int>&, int)` | solved |
+| 2 | `0002_add_two_numbers` | Add Two Numbers | `ListNode* addTwoNumbers(ListNode*, ListNode*)` | solved |
+| 3 | `0003_longest_substring_without_repeating_characters` | Longest Substring Without Repeating Characters | `int lengthOfLongestSubstring(string)` | stub |
+| 4 | `0004_median_of_two_sorted_arrays` | Median of Two Sorted Arrays | `double findMedianSortedArrays(vector<int>&, vector<int>&)` | stub |
+| 5 | `0005_longest_palindromic_substring` | Longest Palindromic Substring | `string longestPalindrome(string)` | stub |
+| 6 | `0006_zigzag_conversion` | Zigzag Conversion | `string convert(string, int)` | stub |
+| 7 | `0007_reverse_integer` | Reverse Integer | `int reverse(int)` | stub |
+| 8 | `0008_string_to_integer_atoi` | String to Integer (atoi) | `int myAtoi(string)` | stub |
+| 9 | `0009_palindrome_number` | Palindrome Number | `bool isPalindrome(int)` | stub |
+| 10 | `0010_regular_expression_matching` | Regular Expression Matching | `bool isMatch(string, string)` | stub |
+| 11 | `0011_container_with_most_water` | Container With Most Water | `int maxArea(vector<int>&)` | stub |
+| 12 | `0012_integer_to_roman` | Integer to Roman | `string intToRoman(int)` | stub |
+| 13 | `0013_roman_to_integer` | Roman to Integer | `int romanToInt(string)` | stub |
+| 14 | `0014_longest_common_prefix` | Longest Common Prefix | `string longestCommonPrefix(vector<string>&)` | stub |
+| 15 | `0015_3sum` | 3Sum | `vector<vector<int>> threeSum(vector<int>&)` | stub |
+| 16 | `0016_3sum_closest` | 3Sum Closest | `int threeSumClosest(vector<int>&, int)` | stub |
+| 17 | `0017_letter_combinations_of_a_phone_number` | Letter Combinations of a Phone Number | `vector<string> letterCombinations(string)` | stub |
+| 18 | `0018_4sum` | 4Sum | `vector<vector<int>> fourSum(vector<int>&, int)` | stub |
+| 19 | `0019_remove_nth_node_from_end_of_list` | Remove Nth Node From End of List | `ListNode* removeNthFromEnd(ListNode*, int)` | stub |
+| 20 | `0020_valid_parentheses` | Valid Parentheses | `bool isValid(string)` | stub |
