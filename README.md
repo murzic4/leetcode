@@ -46,13 +46,13 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 |---|--------|---------|------------------|--------|
 | 1 | `0001_two_sum` | Two Sum | `vector<int> twoSum(vector<int>&, int)` | solved |
 | 2 | `0002_add_two_numbers` | Add Two Numbers | `ListNode* addTwoNumbers(ListNode*, ListNode*)` | solved |
-| 3 | `0003_longest_substring_without_repeating_characters` | Longest Substring Without Repeating Characters | `int lengthOfLongestSubstring(string)` | stub |
-| 4 | `0004_median_of_two_sorted_arrays` | Median of Two Sorted Arrays | `double findMedianSortedArrays(vector<int>&, vector<int>&)` | stub |
-| 5 | `0005_longest_palindromic_substring` | Longest Palindromic Substring | `string longestPalindrome(string)` | stub |
-| 6 | `0006_zigzag_conversion` | Zigzag Conversion | `string convert(string, int)` | stub |
-| 7 | `0007_reverse_integer` | Reverse Integer | `int reverse(int)` | stub |
-| 8 | `0008_string_to_integer_atoi` | String to Integer (atoi) | `int myAtoi(string)` | stub |
-| 9 | `0009_palindrome_number` | Palindrome Number | `bool isPalindrome(int)` | stub |
+| 3 | `0003_longest_substring_without_repeating_characters` | Longest Substring Without Repeating Characters | `int lengthOfLongestSubstring(string)` | solved |
+| 4 | `0004_median_of_two_sorted_arrays` | Median of Two Sorted Arrays | `double findMedianSortedArrays(vector<int>&, vector<int>&)` | solved |
+| 5 | `0005_longest_palindromic_substring` | Longest Palindromic Substring | `string longestPalindrome(string)` | solved |
+| 6 | `0006_zigzag_conversion` | Zigzag Conversion | `string convert(string, int)` | solved |
+| 7 | `0007_reverse_integer` | Reverse Integer | `int reverse(int)` | solved |
+| 8 | `0008_string_to_integer_atoi` | String to Integer (atoi) | `int myAtoi(string)` | solved |
+| 9 | `0009_palindrome_number` | Palindrome Number | `bool isPalindrome(int)` | solved |
 | 10 | `0010_regular_expression_matching` | Regular Expression Matching | `bool isMatch(string, string)` | stub |
 | 11 | `0011_container_with_most_water` | Container With Most Water | `int maxArea(vector<int>&)` | stub |
 | 12 | `0012_integer_to_roman` | Integer to Roman | `string intToRoman(int)` | stub |
