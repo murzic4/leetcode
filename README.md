@@ -53,7 +53,7 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 | 7 | `0007_reverse_integer` | Reverse Integer | `int reverse(int)` | solved |
 | 8 | `0008_string_to_integer_atoi` | String to Integer (atoi) | `int myAtoi(string)` | solved |
 | 9 | `0009_palindrome_number` | Palindrome Number | `bool isPalindrome(int)` | solved |
-| 10 | `0010_regular_expression_matching` | Regular Expression Matching | `bool isMatch(string, string)` | stub |
+| 10 | `0010_regular_expression_matching` | Regular Expression Matching | `bool isMatch(string, string)` | solved |
 | 11 | `0011_container_with_most_water` | Container With Most Water | `int maxArea(vector<int>&)` | stub |
 | 12 | `0012_integer_to_roman` | Integer to Roman | `string intToRoman(int)` | stub |
 | 13 | `0013_roman_to_integer` | Roman to Integer | `int romanToInt(string)` | stub |
