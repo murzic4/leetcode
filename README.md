@@ -13,7 +13,11 @@ leetcode/
 │   └── Makefile     # builds and runs the tests
 ├── 0002_add_two_numbers/
 ├── ...
-└── 0010_regular_expression_matching/
+├── 0010_regular_expression_matching/
+└── parallel/                  # C++ parallel programming exercises
+    ├── 01_thread_safe_counter/
+    ├── 02_producer_consumer/
+    └── ...
 ```
 
 Each problem folder is self-contained.
@@ -64,3 +68,26 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 | 18 | `0018_4sum` | 4Sum | `vector<vector<int>> fourSum(vector<int>&, int)` | stub |
 | 19 | `0019_remove_nth_node_from_end_of_list` | Remove Nth Node From End of List | `ListNode* removeNthFromEnd(ListNode*, int)` | stub |
 | 20 | `0020_valid_parentheses` | Valid Parentheses | `bool isValid(string)` | stub |
+
+## Parallel Programming (C++)
+
+A separate block of exercises on C++17 concurrency. Each task is a self-contained
+folder under `parallel/` with the same layout (`problem.md`, `solution.h`, `test.cpp`,
+`Makefile`) but compiled with `-pthread`.
+
+Run them from the repo root with `make test` (runs both blocks), or individually:
+
+```bash
+cd parallel/01_thread_safe_counter
+make test
+```
+
+| # | Folder | Task | Interface | Status |
+|---|--------|------|-----------|--------|
+| 1 | `01_thread_safe_counter` | Thread-safe counter (mutex vs atomic) | `MutexCounter` / `AtomicCounter` | stub |
+| 2 | `02_producer_consumer` | Producer-consumer (bounded queue) | `BoundedQueue` | stub |
+| 3 | `03_thread_pool` | Thread pool | `ThreadPool` | stub |
+| 4 | `04_parallel_reduce` | Parallel sum (reduce) | `parallelSum(...)` | stub |
+| 5 | `05_read_write_lock` | Read-write lock (`shared_mutex`) | `ReadWriteLockDemo` | stub |
+| 6 | `06_two_thread_alternate` | Alternating output of two threads | `alternatePrint(...)` | stub |
+| 7 | `07_dining_philosophers` | Dining philosophers | `DiningPhilosophers` | stub |
