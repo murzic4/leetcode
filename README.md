@@ -84,7 +84,7 @@ make test
 
 | # | Folder | Task | Interface | Status |
 |---|--------|------|-----------|--------|
-| 1 | `01_thread_safe_counter` | Thread-safe counter (mutex vs atomic) | `MutexCounter` / `AtomicCounter` | stub |
+| 1 | `01_thread_safe_counter` | Thread-safe counter (mutex vs atomic) | `MutexCounter` / `AtomicCounter` | solved |
 | 2 | `02_producer_consumer` | Producer-consumer (bounded queue) | `BoundedQueue` | stub |
 | 3 | `03_thread_pool` | Thread pool | `ThreadPool` | stub |
 | 4 | `04_parallel_reduce` | Parallel sum (reduce) | `parallelSum(...)` | stub |
