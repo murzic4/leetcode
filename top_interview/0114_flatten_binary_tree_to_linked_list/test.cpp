@@ -1,0 +1,55 @@
+#include "solution.h"
+
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
+
+static int passed = 0;
+static int failed = 0;
+
+static void check(bool ok, const string& name) {
+    if (ok) {
+        ++passed;
+        cout << "[PASS] " << name << "\n";
+    } else {
+        ++failed;
+        cout << "[FAIL] " << name << "\n";
+    }
+}
+
+static TreeNode* makeTree(const vector<int>& vals) {
+    if (vals.empty() || vals[0] == -1) return nullptr;
+    TreeNode* root = new TreeNode(vals[0]);
+    queue<TreeNode*> q;
+    q.push(root);
+    int i = 1;
+    while (i < (int)vals.size() && !q.empty()) {
+        TreeNode* cur = q.front();
+        q.pop();
+        if (i < (int)vals.size()) {
+            if (vals[i] != -1) {
+                cur->left = new TreeNode(vals[i]);
+                q.push(cur->left);
+            }
+            ++i;
+        }
+        if (i < (int)vals.size()) {
+            if (vals[i] != -1) {
+                cur->right = new TreeNode(vals[i]);
+                q.push(cur->right);
+            }
+            ++i;
+        }
+    }
+    return root;
+}
+
+int main() {
+    Solution s;
+
+{ TreeNode* r = makeTree({1,2,5,3,4,-1,6}); s.flatten(r); vector<int> out; for (TreeNode* n = r; n; n = n->right) out.push_back(n->val); check(out == vector<int>{1,2,3,4,5,6}, "[1,2,5,3,4,null,6] -> [1,null,2,null,3,null,4,null,5,null,6]"); }
+
+    cout << "\nResult: " << passed << " passed, " << failed << " failed\n";
+    return failed == 0 ? 0 : 1;
+}
