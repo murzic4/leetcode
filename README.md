@@ -63,7 +63,7 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 | 9 | `0009_palindrome_number` | Palindrome Number | `bool isPalindrome(int)` | [solved](#) |
 | 10 | `0010_regular_expression_matching` | Regular Expression Matching | `bool isMatch(string, string)` | [solved](#) |
 | 11 | `0011_container_with_most_water` | Container With Most Water | `int maxArea(vector<int>&)` | [solved](#) |
-| 12 | `0012_integer_to_roman` | Integer to Roman | `string intToRoman(int)` | `stub` |
+| 12 | `0012_integer_to_roman` | Integer to Roman | `string intToRoman(int)` | [solved](#) |
 | 13 | `0013_roman_to_integer` | Roman to Integer | `int romanToInt(string)` | `stub` |
 | 14 | `0014_longest_common_prefix` | Longest Common Prefix | `string longestCommonPrefix(vector<string>&)` | `stub` |
 | 15 | `0015_3sum` | 3Sum | `vector<vector<int>> threeSum(vector<int>&)` | `stub` |
@@ -112,7 +112,7 @@ Each task is self-contained (`problem.md`, `solution.h`, `test.cpp`, `Makefile`)
 | 5 | Longest Palindromic Substring | Medium | DP | [0005_longest_palindromic_substring](../0005_longest_palindromic_substring/) | Яндекс, VK | [solved](#) |
 | 6 | Zigzag Conversion | Medium | Array/String | [0006_zigzag_conversion](../0006_zigzag_conversion/) | — | [solved](#) |
 | 11 | Container With Most Water | Medium | Two Pointers | [0011_container_with_most_water](../0011_container_with_most_water/) | Яндекс | [solved](#) |
-| 12 | Integer to Roman | Medium | Array/String | [0012_integer_to_roman](../0012_integer_to_roman/) | — | `stub` |
+| 12 | Integer to Roman | Medium | Array/String | [0012_integer_to_roman](../0012_integer_to_roman/) | — | [solved](#) |
 | 13 | Roman to Integer | Easy | Array/String | [0013_roman_to_integer](../0013_roman_to_integer/) | — | `stub` |
 | 14 | Longest Common Prefix | Easy | Array/String | [0014_longest_common_prefix](../0014_longest_common_prefix/) | Яндекс | `stub` |
 | 15 | 3Sum | Medium | Two Pointers | [0015_3sum](../0015_3sum/) | Яндекс, Tinkoff | `stub` |
