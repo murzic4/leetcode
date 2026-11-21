@@ -65,7 +65,7 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 | 11 | `0011_container_with_most_water` | Container With Most Water | `int maxArea(vector<int>&)` | [solved](#) |
 | 12 | `0012_integer_to_roman` | Integer to Roman | `string intToRoman(int)` | [solved](#) |
 | 13 | `0013_roman_to_integer` | Roman to Integer | `int romanToInt(string)` | [solved](#) |
-| 14 | `0014_longest_common_prefix` | Longest Common Prefix | `string longestCommonPrefix(vector<string>&)` | `stub` |
+| 14 | `0014_longest_common_prefix` | Longest Common Prefix | `string longestCommonPrefix(vector<string>&)` | [solved](#) |
 | 15 | `0015_3sum` | 3Sum | `vector<vector<int>> threeSum(vector<int>&)` | `stub` |
 | 16 | `0016_3sum_closest` | 3Sum Closest | `int threeSumClosest(vector<int>&, int)` | `stub` |
 | 17 | `0017_letter_combinations_of_a_phone_number` | Letter Combinations of a Phone Number | `vector<string> letterCombinations(string)` | `stub` |
@@ -89,7 +89,7 @@ make test
 | # | Folder | Task | Interface | Status |
 |---|--------|------|-----------|--------|
 | 1 | `01_thread_safe_counter` | Thread-safe counter (mutex vs atomic) | `MutexCounter` / `AtomicCounter` | [solved](#) |
-| 2 | `02_producer_consumer` | Producer-consumer (bounded queue) | `BoundedQueue` | `stub` |
+| 2 | `02_producer_consumer` | Producer-consumer (bounded queue) | `BoundedQueue` | [solved](#) |
 | 3 | `03_thread_pool` | Thread pool | `ThreadPool` | `stub` |
 | 4 | `04_parallel_reduce` | Parallel sum (reduce) | `parallelSum(...)` | `stub` |
 | 5 | `05_read_write_lock` | Read-write lock (`shared_mutex`) | `ReadWriteLockDemo` | `stub` |
@@ -114,7 +114,7 @@ Each task is self-contained (`problem.md`, `solution.h`, `test.cpp`, `Makefile`)
 | 11 | Container With Most Water | Medium | Two Pointers | [0011_container_with_most_water](../0011_container_with_most_water/) | Яндекс | [solved](#) |
 | 12 | Integer to Roman | Medium | Array/String | [0012_integer_to_roman](../0012_integer_to_roman/) | — | [solved](#) |
 | 13 | Roman to Integer | Easy | Array/String | [0013_roman_to_integer](../0013_roman_to_integer/) | — | [solved](#) |
-| 14 | Longest Common Prefix | Easy | Array/String | [0014_longest_common_prefix](../0014_longest_common_prefix/) | Яндекс | `stub` |
+| 14 | Longest Common Prefix | Easy | Array/String | [0014_longest_common_prefix](../0014_longest_common_prefix/) | Яндекс | [solved](#) |
 | 15 | 3Sum | Medium | Two Pointers | [0015_3sum](../0015_3sum/) | Яндекс, Tinkoff | `stub` |
 | 17 | Letter Combinations of a Phone Number | Medium | Backtracking | [0017_letter_combinations_of_a_phone_number](../0017_letter_combinations_of_a_phone_number/) | Яндекс | `stub` |
 | 19 | Remove Nth Node From End of List | Medium | Linked List | [0019_remove_nth_node_from_end_of_list](../0019_remove_nth_node_from_end_of_list/) | Яндекс | `stub` |
