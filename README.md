@@ -68,9 +68,9 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 | 14 | `0014_longest_common_prefix` | Longest Common Prefix | `string longestCommonPrefix(vector<string>&)` | [solved](#) |
 | 15 | `0015_3sum` | 3Sum | `vector<vector<int>> threeSum(vector<int>&)` | [solved](#) |
 | 16 | `0016_3sum_closest` | 3Sum Closest | `int threeSumClosest(vector<int>&, int)` | [solved](#) |
-| 17 | `0017_letter_combinations_of_a_phone_number` | Letter Combinations of a Phone Number | `vector<string> letterCombinations(string)` | `stub` |
+| 17 | `0017_letter_combinations_of_a_phone_number` | Letter Combinations of a Phone Number | `vector<string> letterCombinations(string)` | [solved](#) |
 | 18 | `0018_4sum` | 4Sum | `vector<vector<int>> fourSum(vector<int>&, int)` | `stub` |
-| 19 | `0019_remove_nth_node_from_end_of_list` | Remove Nth Node From End of List | `ListNode* removeNthFromEnd(ListNode*, int)` | `stub` |
+| 19 | `0019_remove_nth_node_from_end_of_list` | Remove Nth Node From End of List | `ListNode* removeNthFromEnd(ListNode*, int)` | [solved](#) |
 | 20 | `0020_valid_parentheses` | Valid Parentheses | `bool isValid(string)` | `stub` |
 
 ## Parallel Programming (C++)
@@ -116,8 +116,8 @@ Each task is self-contained (`problem.md`, `solution.h`, `test.cpp`, `Makefile`)
 | 13 | Roman to Integer | Easy | Array/String | [0013_roman_to_integer](../0013_roman_to_integer/) | — | [solved](#) |
 | 14 | Longest Common Prefix | Easy | Array/String | [0014_longest_common_prefix](../0014_longest_common_prefix/) | Яндекс | [solved](#) |
 | 15 | 3Sum | Medium | Two Pointers | [0015_3sum](../0015_3sum/) | Яндекс, Tinkoff | [solved](#) |
-| 17 | Letter Combinations of a Phone Number | Medium | Backtracking | [0017_letter_combinations_of_a_phone_number](../0017_letter_combinations_of_a_phone_number/) | Яндекс | `stub` |
-| 19 | Remove Nth Node From End of List | Medium | Linked List | [0019_remove_nth_node_from_end_of_list](../0019_remove_nth_node_from_end_of_list/) | Яндекс | `stub` |
+| 17 | Letter Combinations of a Phone Number | Medium | Backtracking | [0017_letter_combinations_of_a_phone_number](../0017_letter_combinations_of_a_phone_number/) | Яндекс | [solved](#) |
+| 19 | Remove Nth Node From End of List | Medium | Linked List | [0019_remove_nth_node_from_end_of_list](../0019_remove_nth_node_from_end_of_list/) | Яндекс | [solved](#) |
 | 20 | Valid Parentheses | Easy | Stack | [0020_valid_parentheses](../0020_valid_parentheses/) | Яндекс, Tinkoff, VK | `stub` |
 | 21 | Merge Two Sorted Lists | Easy | Linked List | `0021_merge_two_sorted_lists` | Яндекс | `stub` |
 | 22 | Generate Parentheses | Medium | Backtracking | `0022_generate_parentheses` | Яндекс | `stub` |
