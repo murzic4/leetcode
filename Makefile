@@ -3,41 +3,19 @@ SHELL := /bin/bash
 .PHONY: test clean
 
 test:
-	@passed=0; failed=0; \
-	for d in [0-9][0-9][0-9][0-9]_*; do \
-		echo "=== $$d ==="; \
-		if make --no-print-directory -C "$$d" test; then \
-			sed -i -E "/$$d/ s/\| [^|]* \|$$/| [solved](#) |/" README.md; \
+	@passed=0; failed=0; results=""; \
+	for d in [0-9][0-9][0-9][0-9]_* parallel/*/ top_interview/*/; do \
+		dir=$${d%/}; \
+		echo "=== $$dir ==="; \
+		if make --no-print-directory -C "$$dir" test; then \
+			results="$$results$${dir##*/}=solved"$$'\n'; \
 			passed=$$((passed+1)); \
 		else \
-			sed -i -E "/$$d/ s/\| [^|]* \|$$/| \`stub\` |/" README.md; \
+			results="$$results$${dir##*/}=stub"$$'\n'; \
 			failed=$$((failed+1)); \
 		fi; \
 	done; \
-	for d in parallel/*/; do \
-		d=$${d%/}; \
-		base=$${d##*/}; \
-		echo "=== $$d ==="; \
-		if make --no-print-directory -C "$$d" test; then \
-			sed -i -E "/$$base/ s/\| [^|]* \|$$/| [solved](#) |/" README.md; \
-			passed=$$((passed+1)); \
-		else \
-			sed -i -E "/$$base/ s/\| [^|]* \|$$/| \`stub\` |/" README.md; \
-			failed=$$((failed+1)); \
-		fi; \
-	done; \
-	for d in top_interview/*/; do \
-		d=$${d%/}; \
-		base=$${d##*/}; \
-		echo "=== $$d ==="; \
-		if make --no-print-directory -C "$$d" test; then \
-			sed -i -E "/$$base/ s/\| [^|]* \|$$/| [solved](#) |/" README.md; \
-			passed=$$((passed+1)); \
-		else \
-			sed -i -E "/$$base/ s/\| [^|]* \|$$/| \`stub\` |/" README.md; \
-			failed=$$((failed+1)); \
-		fi; \
-	done; \
+	printf '%s' "$$results" | tools/update_readme.sh README.md; \
 	echo ""; \
 	echo "Summary: $$passed passed, $$failed failed"
 

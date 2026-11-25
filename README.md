@@ -52,25 +52,25 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 
 | # | Folder | Problem | Method signature | Status |
 |---|--------|---------|------------------|--------|
-| 1 | `0001_two_sum` | Two Sum | `vector<int> twoSum(vector<int>&, int)` | [solved](#) |
-| 2 | `0002_add_two_numbers` | Add Two Numbers | `ListNode* addTwoNumbers(ListNode*, ListNode*)` | [solved](#) |
-| 3 | `0003_longest_substring_without_repeating_characters` | Longest Substring Without Repeating Characters | `int lengthOfLongestSubstring(string)` | [solved](#) |
-| 4 | `0004_median_of_two_sorted_arrays` | Median of Two Sorted Arrays | `double findMedianSortedArrays(vector<int>&, vector<int>&)` | [solved](#) |
-| 5 | `0005_longest_palindromic_substring` | Longest Palindromic Substring | `string longestPalindrome(string)` | [solved](#) |
-| 6 | `0006_zigzag_conversion` | Zigzag Conversion | `string convert(string, int)` | [solved](#) |
-| 7 | `0007_reverse_integer` | Reverse Integer | `int reverse(int)` | [solved](#) |
-| 8 | `0008_string_to_integer_atoi` | String to Integer (atoi) | `int myAtoi(string)` | [solved](#) |
-| 9 | `0009_palindrome_number` | Palindrome Number | `bool isPalindrome(int)` | [solved](#) |
-| 10 | `0010_regular_expression_matching` | Regular Expression Matching | `bool isMatch(string, string)` | [solved](#) |
-| 11 | `0011_container_with_most_water` | Container With Most Water | `int maxArea(vector<int>&)` | [solved](#) |
-| 12 | `0012_integer_to_roman` | Integer to Roman | `string intToRoman(int)` | [solved](#) |
-| 13 | `0013_roman_to_integer` | Roman to Integer | `int romanToInt(string)` | [solved](#) |
-| 14 | `0014_longest_common_prefix` | Longest Common Prefix | `string longestCommonPrefix(vector<string>&)` | [solved](#) |
-| 15 | `0015_3sum` | 3Sum | `vector<vector<int>> threeSum(vector<int>&)` | [solved](#) |
-| 16 | `0016_3sum_closest` | 3Sum Closest | `int threeSumClosest(vector<int>&, int)` | [solved](#) |
-| 17 | `0017_letter_combinations_of_a_phone_number` | Letter Combinations of a Phone Number | `vector<string> letterCombinations(string)` | [solved](#) |
+| 1 | `0001_two_sum` | [Two Sum](#) | `vector<int> twoSum(vector<int>&, int)` | [solved](#) |
+| 2 | `0002_add_two_numbers` | [Add Two Numbers](#) | `ListNode* addTwoNumbers(ListNode*, ListNode*)` | [solved](#) |
+| 3 | `0003_longest_substring_without_repeating_characters` | [Longest Substring Without Repeating Characters](#) | `int lengthOfLongestSubstring(string)` | [solved](#) |
+| 4 | `0004_median_of_two_sorted_arrays` | [Median of Two Sorted Arrays](#) | `double findMedianSortedArrays(vector<int>&, vector<int>&)` | [solved](#) |
+| 5 | `0005_longest_palindromic_substring` | [Longest Palindromic Substring](#) | `string longestPalindrome(string)` | [solved](#) |
+| 6 | `0006_zigzag_conversion` | [Zigzag Conversion](#) | `string convert(string, int)` | [solved](#) |
+| 7 | `0007_reverse_integer` | [Reverse Integer](#) | `int reverse(int)` | [solved](#) |
+| 8 | `0008_string_to_integer_atoi` | [String to Integer (atoi)](#) | `int myAtoi(string)` | [solved](#) |
+| 9 | `0009_palindrome_number` | [Palindrome Number](#) | `bool isPalindrome(int)` | [solved](#) |
+| 10 | `0010_regular_expression_matching` | [Regular Expression Matching](#) | `bool isMatch(string, string)` | [solved](#) |
+| 11 | `0011_container_with_most_water` | [Container With Most Water](#) | `int maxArea(vector<int>&)` | [solved](#) |
+| 12 | `0012_integer_to_roman` | [Integer to Roman](#) | `string intToRoman(int)` | [solved](#) |
+| 13 | `0013_roman_to_integer` | [Roman to Integer](#) | `int romanToInt(string)` | [solved](#) |
+| 14 | `0014_longest_common_prefix` | [Longest Common Prefix](#) | `string longestCommonPrefix(vector<string>&)` | [solved](#) |
+| 15 | `0015_3sum` | [3Sum](#) | `vector<vector<int>> threeSum(vector<int>&)` | [solved](#) |
+| 16 | `0016_3sum_closest` | [3Sum Closest](#) | `int threeSumClosest(vector<int>&, int)` | [solved](#) |
+| 17 | `0017_letter_combinations_of_a_phone_number` | [Letter Combinations of a Phone Number](#) | `vector<string> letterCombinations(string)` | [solved](#) |
 | 18 | `0018_4sum` | 4Sum | `vector<vector<int>> fourSum(vector<int>&, int)` | `stub` |
-| 19 | `0019_remove_nth_node_from_end_of_list` | Remove Nth Node From End of List | `ListNode* removeNthFromEnd(ListNode*, int)` | [solved](#) |
+| 19 | `0019_remove_nth_node_from_end_of_list` | [Remove Nth Node From End of List](#) | `ListNode* removeNthFromEnd(ListNode*, int)` | [solved](#) |
 | 20 | `0020_valid_parentheses` | Valid Parentheses | `bool isValid(string)` | `stub` |
 
 ## Parallel Programming (C++)
@@ -88,8 +88,8 @@ make test
 
 | # | Folder | Task | Interface | Status |
 |---|--------|------|-----------|--------|
-| 1 | `01_thread_safe_counter` | Thread-safe counter (mutex vs atomic) | `MutexCounter` / `AtomicCounter` | [solved](#) |
-| 2 | `02_producer_consumer` | Producer-consumer (bounded queue) | `BoundedQueue` | [solved](#) |
+| 1 | `01_thread_safe_counter` | [Thread-safe counter (mutex vs atomic)](#) | `MutexCounter` / `AtomicCounter` | [solved](#) |
+| 2 | `02_producer_consumer` | [Producer-consumer (bounded queue)](#) | `BoundedQueue` | [solved](#) |
 | 3 | `03_thread_pool` | Thread pool | `ThreadPool` | `stub` |
 | 4 | `04_parallel_reduce` | Parallel sum (reduce) | `parallelSum(...)` | `stub` |
 | 5 | `05_read_write_lock` | Read-write lock (`shared_mutex`) | `ReadWriteLockDemo` | `stub` |
@@ -105,21 +105,21 @@ Each task is self-contained (`problem.md`, `solution.h`, `test.cpp`, `Makefile`)
 
 | # | Problem | Difficulty | Topic | Where | RU companies | Status |
 |---|---------|-----------|-------|-------|--------------|--------|
-| 1 | Two Sum | Easy | Array/String | [0001_two_sum](../0001_two_sum/) | Яндекс, VK, Tinkoff | [solved](#) |
-| 2 | Add Two Numbers | Medium | Linked List | [0002_add_two_numbers](../0002_add_two_numbers/) | Яндекс | [solved](#) |
-| 3 | Longest Substring Without Repeating Characters | Medium | Sliding Window | [0003_longest_substring_without_repeating_characters](../0003_longest_substring_without_repeating_characters/) | Яндекс, Ozon | [solved](#) |
-| 4 | Median of Two Sorted Arrays | Hard | Array/String | [0004_median_of_two_sorted_arrays](../0004_median_of_two_sorted_arrays/) | Яндекс | [solved](#) |
-| 5 | Longest Palindromic Substring | Medium | DP | [0005_longest_palindromic_substring](../0005_longest_palindromic_substring/) | Яндекс, VK | [solved](#) |
-| 6 | Zigzag Conversion | Medium | Array/String | [0006_zigzag_conversion](../0006_zigzag_conversion/) | — | [solved](#) |
-| 11 | Container With Most Water | Medium | Two Pointers | [0011_container_with_most_water](../0011_container_with_most_water/) | Яндекс | [solved](#) |
-| 12 | Integer to Roman | Medium | Array/String | [0012_integer_to_roman](../0012_integer_to_roman/) | — | [solved](#) |
-| 13 | Roman to Integer | Easy | Array/String | [0013_roman_to_integer](../0013_roman_to_integer/) | — | [solved](#) |
-| 14 | Longest Common Prefix | Easy | Array/String | [0014_longest_common_prefix](../0014_longest_common_prefix/) | Яндекс | [solved](#) |
-| 15 | 3Sum | Medium | Two Pointers | [0015_3sum](../0015_3sum/) | Яндекс, Tinkoff | [solved](#) |
-| 17 | Letter Combinations of a Phone Number | Medium | Backtracking | [0017_letter_combinations_of_a_phone_number](../0017_letter_combinations_of_a_phone_number/) | Яндекс | [solved](#) |
-| 19 | Remove Nth Node From End of List | Medium | Linked List | [0019_remove_nth_node_from_end_of_list](../0019_remove_nth_node_from_end_of_list/) | Яндекс | [solved](#) |
+| 1 | [Two Sum](#) | Easy | Array/String | [0001_two_sum](../0001_two_sum/) | Яндекс, VK, Tinkoff | [solved](#) |
+| 2 | [Add Two Numbers](#) | Medium | Linked List | [0002_add_two_numbers](../0002_add_two_numbers/) | Яндекс | [solved](#) |
+| 3 | [Longest Substring Without Repeating Characters](#) | Medium | Sliding Window | [0003_longest_substring_without_repeating_characters](../0003_longest_substring_without_repeating_characters/) | Яндекс, Ozon | [solved](#) |
+| 4 | [Median of Two Sorted Arrays](#) | Hard | Array/String | [0004_median_of_two_sorted_arrays](../0004_median_of_two_sorted_arrays/) | Яндекс | [solved](#) |
+| 5 | [Longest Palindromic Substring](#) | Medium | DP | [0005_longest_palindromic_substring](../0005_longest_palindromic_substring/) | Яндекс, VK | [solved](#) |
+| 6 | [Zigzag Conversion](#) | Medium | Array/String | [0006_zigzag_conversion](../0006_zigzag_conversion/) | — | [solved](#) |
+| 11 | [Container With Most Water](#) | Medium | Two Pointers | [0011_container_with_most_water](../0011_container_with_most_water/) | Яндекс | [solved](#) |
+| 12 | [Integer to Roman](#) | Medium | Array/String | [0012_integer_to_roman](../0012_integer_to_roman/) | — | [solved](#) |
+| 13 | [Roman to Integer](#) | Easy | Array/String | [0013_roman_to_integer](../0013_roman_to_integer/) | — | [solved](#) |
+| 14 | [Longest Common Prefix](#) | Easy | Array/String | [0014_longest_common_prefix](../0014_longest_common_prefix/) | Яндекс | [solved](#) |
+| 15 | [3Sum](#) | Medium | Two Pointers | [0015_3sum](../0015_3sum/) | Яндекс, Tinkoff | [solved](#) |
+| 17 | [Letter Combinations of a Phone Number](#) | Medium | Backtracking | [0017_letter_combinations_of_a_phone_number](../0017_letter_combinations_of_a_phone_number/) | Яндекс | [solved](#) |
+| 19 | [Remove Nth Node From End of List](#) | Medium | Linked List | [0019_remove_nth_node_from_end_of_list](../0019_remove_nth_node_from_end_of_list/) | Яндекс | [solved](#) |
 | 20 | Valid Parentheses | Easy | Stack | [0020_valid_parentheses](../0020_valid_parentheses/) | Яндекс, Tinkoff, VK | `stub` |
-| 21 | Merge Two Sorted Lists | Easy | Linked List | `0021_merge_two_sorted_lists` | Яндекс | [solved](#) |
+| 21 | [Merge Two Sorted Lists](#) | Easy | Linked List | `0021_merge_two_sorted_lists` | Яндекс | [solved](#) |
 | 22 | Generate Parentheses | Medium | Backtracking | `0022_generate_parentheses` | Яндекс | `stub` |
 | 23 | Merge k Sorted Lists | Hard | Divide & Conquer | `0023_merge_k_sorted_lists` | Яндекс | `stub` |
 | 25 | Reverse Nodes in k-Group | Hard | Linked List | `0025_reverse_nodes_in_k_group` | Яндекс | `stub` |
