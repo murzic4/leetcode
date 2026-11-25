@@ -67,7 +67,7 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 | 13 | `0013_roman_to_integer` | Roman to Integer | `int romanToInt(string)` | [solved](#) |
 | 14 | `0014_longest_common_prefix` | Longest Common Prefix | `string longestCommonPrefix(vector<string>&)` | [solved](#) |
 | 15 | `0015_3sum` | 3Sum | `vector<vector<int>> threeSum(vector<int>&)` | [solved](#) |
-| 16 | `0016_3sum_closest` | 3Sum Closest | `int threeSumClosest(vector<int>&, int)` | `stub` |
+| 16 | `0016_3sum_closest` | 3Sum Closest | `int threeSumClosest(vector<int>&, int)` | [solved](#) |
 | 17 | `0017_letter_combinations_of_a_phone_number` | Letter Combinations of a Phone Number | `vector<string> letterCombinations(string)` | `stub` |
 | 18 | `0018_4sum` | 4Sum | `vector<vector<int>> fourSum(vector<int>&, int)` | `stub` |
 | 19 | `0019_remove_nth_node_from_end_of_list` | Remove Nth Node From End of List | `ListNode* removeNthFromEnd(ListNode*, int)` | `stub` |
