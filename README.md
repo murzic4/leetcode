@@ -119,7 +119,7 @@ Each task is self-contained (`problem.md`, `solution.h`, `test.cpp`, `Makefile`)
 | 17 | Letter Combinations of a Phone Number | Medium | Backtracking | [0017_letter_combinations_of_a_phone_number](../0017_letter_combinations_of_a_phone_number/) | Яндекс | [solved](#) |
 | 19 | Remove Nth Node From End of List | Medium | Linked List | [0019_remove_nth_node_from_end_of_list](../0019_remove_nth_node_from_end_of_list/) | Яндекс | [solved](#) |
 | 20 | Valid Parentheses | Easy | Stack | [0020_valid_parentheses](../0020_valid_parentheses/) | Яндекс, Tinkoff, VK | `stub` |
-| 21 | Merge Two Sorted Lists | Easy | Linked List | `0021_merge_two_sorted_lists` | Яндекс | `stub` |
+| 21 | Merge Two Sorted Lists | Easy | Linked List | `0021_merge_two_sorted_lists` | Яндекс | [solved](#) |
 | 22 | Generate Parentheses | Medium | Backtracking | `0022_generate_parentheses` | Яндекс | `stub` |
 | 23 | Merge k Sorted Lists | Hard | Divide & Conquer | `0023_merge_k_sorted_lists` | Яндекс | `stub` |
 | 25 | Reverse Nodes in k-Group | Hard | Linked List | `0025_reverse_nodes_in_k_group` | Яндекс | `stub` |
