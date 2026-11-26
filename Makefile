@@ -8,10 +8,10 @@ test:
 		dir=$${d%/}; \
 		echo "=== $$dir ==="; \
 		if make --no-print-directory -C "$$dir" test; then \
-			results="$$results$${dir##*/}=solved"$$'\n'; \
+			results="$$results$${dir##*/}=solved|$$dir"$$'\n'; \
 			passed=$$((passed+1)); \
 		else \
-			results="$$results$${dir##*/}=stub"$$'\n'; \
+			results="$$results$${dir##*/}=stub|$$dir"$$'\n'; \
 			failed=$$((failed+1)); \
 		fi; \
 	done; \
