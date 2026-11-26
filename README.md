@@ -122,7 +122,7 @@ Each task is self-contained (`problem.md`, `solution.h`, `test.cpp`, `Makefile`)
 | 21 | [Merge Two Sorted Lists](top_interview/0021_merge_two_sorted_lists/) | Easy | Linked List | 0021_merge_two_sorted_lists | Яндекс | [solved](#) |
 | 22 | [Generate Parentheses](top_interview/0022_generate_parentheses/) | Medium | Backtracking | 0022_generate_parentheses | Яндекс | [solved](#) |
 | 23 | [Merge k Sorted Lists](top_interview/0023_merge_k_sorted_lists/) | Hard | Divide & Conquer | 0023_merge_k_sorted_lists | Яндекс | [solved](#) |
-| 25 | Reverse Nodes in k-Group | Hard | Linked List | 0025_reverse_nodes_in_k_group | Яндекс | `stub` |
+| 25 | [Reverse Nodes in k-Group](top_interview/0025_reverse_nodes_in_k_group/) | Hard | Linked List | 0025_reverse_nodes_in_k_group | Яндекс | [solved](#) |
 | 26 | Remove Duplicates from Sorted Array | Easy | Array/String | 0026_remove_duplicates_from_sorted_array | Яндекс | `stub` |
 | 27 | Remove Element | Easy | Array/String | 0027_remove_element | Яндекс | `stub` |
 | 30 | Substring with Concatenation of All Words | Hard | Sliding Window | 0030_substring_with_concatenation_of_all_words | — | `stub` |
