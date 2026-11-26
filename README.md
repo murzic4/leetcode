@@ -71,7 +71,7 @@ Tests fail (non-zero exit) until the function is implemented — that is expecte
 | 17 | `0017_letter_combinations_of_a_phone_number` | [Letter Combinations of a Phone Number](#) | `vector<string> letterCombinations(string)` | [solved](#) |
 | 18 | `0018_4sum` | 4Sum | `vector<vector<int>> fourSum(vector<int>&, int)` | `stub` |
 | 19 | `0019_remove_nth_node_from_end_of_list` | [Remove Nth Node From End of List](#) | `ListNode* removeNthFromEnd(ListNode*, int)` | [solved](#) |
-| 20 | `0020_valid_parentheses` | Valid Parentheses | `bool isValid(string)` | `stub` |
+| 20 | `0020_valid_parentheses` | [Valid Parentheses](#) | `bool isValid(string)` | [solved](#) |
 
 ## Parallel Programming (C++)
 
@@ -118,7 +118,7 @@ Each task is self-contained (`problem.md`, `solution.h`, `test.cpp`, `Makefile`)
 | 15 | [3Sum](#) | Medium | Two Pointers | [0015_3sum](../0015_3sum/) | Яндекс, Tinkoff | [solved](#) |
 | 17 | [Letter Combinations of a Phone Number](#) | Medium | Backtracking | [0017_letter_combinations_of_a_phone_number](../0017_letter_combinations_of_a_phone_number/) | Яндекс | [solved](#) |
 | 19 | [Remove Nth Node From End of List](#) | Medium | Linked List | [0019_remove_nth_node_from_end_of_list](../0019_remove_nth_node_from_end_of_list/) | Яндекс | [solved](#) |
-| 20 | Valid Parentheses | Easy | Stack | [0020_valid_parentheses](../0020_valid_parentheses/) | Яндекс, Tinkoff, VK | `stub` |
+| 20 | [Valid Parentheses](#) | Easy | Stack | [0020_valid_parentheses](../0020_valid_parentheses/) | Яндекс, Tinkoff, VK | [solved](#) |
 | 21 | [Merge Two Sorted Lists](#) | Easy | Linked List | `0021_merge_two_sorted_lists` | Яндекс | [solved](#) |
 | 22 | Generate Parentheses | Medium | Backtracking | `0022_generate_parentheses` | Яндекс | `stub` |
 | 23 | Merge k Sorted Lists | Hard | Divide & Conquer | `0023_merge_k_sorted_lists` | Яндекс | `stub` |
